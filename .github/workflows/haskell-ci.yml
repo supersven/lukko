@@ -32,6 +32,7 @@ jobs:
     strategy:
       matrix:
         include:
+          # For testing
           - compiler: ghc-9.12.1
             compilerKind: ghc
             compilerVersion: 9.12.1
